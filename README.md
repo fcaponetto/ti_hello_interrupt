@@ -1,5 +1,7 @@
 # TI Launchpad F28069M interrupt hello world example
 
+**Note: this project does not use the HAL**
+
 Import the css folder. The result should be like the bottom image:
 
 ![project](./docs/files.jpg)
