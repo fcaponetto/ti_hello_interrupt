@@ -1,4 +1,4 @@
-# Texas Instrument TI Launchpad F28069M interrupt hello world example
+# TI Launchpad F28069M interrupt hello world example
 
 Import the css folder. The result should be like the bottom image:
 
