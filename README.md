@@ -18,7 +18,7 @@ To write the program into FLASH use the **xxx_boardName_xxx.cmd**
 
 Instead, to write the program into RAM use the **xxx_boardName_xxx_ram_lnk.cmd**
 
-Example
+Example on Flash:
 
 ![linker](./docs/linker.jpg)
 
@@ -32,7 +32,7 @@ The path location is:
 
 [Speeding up flash-based embedded applications](https://www.embedded.com/speeding-up-flash-based-embedded-applications)
 
-If running from Flash, Specify what function to compy on RAM:
+If running from Flash, specify what function to compy on RAM:
 ```
 #pragma CODE_SECTION(Flash_Init, “ramfuncs”);
 ```
