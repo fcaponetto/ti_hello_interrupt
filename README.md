@@ -33,12 +33,12 @@ The path location is:
 [Speeding up flash-based embedded applications](https://www.embedded.com/speeding-up-flash-based-embedded-applications)
 
 If running from Flash, specify what function to compy on RAM:
-```
+```C
 #pragma CODE_SECTION(Flash_Init, “ramfuncs”);
 ```
 
 Copying the functions into RAM at start-up
-```
+```C
 /* Copy time critical code and Flash setup code to RAM
 *  The  RamfuncsLoadStart, RamfuncsLoadSize, and RamfuncsRunStart
 *  symbols are created by the linker. Refer to the project.cmd file.
