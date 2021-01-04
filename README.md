@@ -10,17 +10,29 @@ The files outside of src folder should be linked from C2000Ware package.
 
 Example: *~/ti/C2000Ware_3_01_00_00_Software/device_support/f2806x/common/include*
 
-Remember also to link the linker file:
+## Write program into Flash or RAM (not permanet)
+
+The linker file (*cmd*) will determine address locations on your board.
+
+To write the program into FLASH use the **xxx_boardName_xxx.cmd**
+
+Instead, to write the program into RAM use the **xxx_boardName_xxx_ram_lnk.cmd**
+
+Example
 
 ![linker](./docs/linker.jpg)
 
-Example *~/ti/C2000Ware_3_01_00_00_Software/device_support/f2806x/common/cmd*
+The path location is:
+```
+ ~/ti/C2000Ware_3_01_00_00_Software/device_support/f2806x/common/cmd
+ ```
+
 
 ## Load function from Flash to RAM
 
 [Speeding up flash-based embedded applications](https://www.embedded.com/speeding-up-flash-based-embedded-applications)
 
-Specify what functions put on RAM:
+If running from Flash, Specify what function to compy on RAM:
 ```
 #pragma CODE_SECTION(Flash_Init, “ramfuncs”);
 ```
