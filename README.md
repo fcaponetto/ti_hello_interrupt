@@ -30,6 +30,8 @@ The path location is:
 
 ## Load function from Flash to RAM
 
+[C28x Compiler - Understanding Linking](https://processors.wiki.ti.com/index.php/C28x_Compiler_-_Understanding_Linking)
+
 [Speeding up flash-based embedded applications](https://www.embedded.com/speeding-up-flash-based-embedded-applications)
 
 If running from Flash, specify what function to compy on RAM:
