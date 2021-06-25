@@ -2,6 +2,17 @@
 
 **Note: this project does not use the HAL**
 
+This simple example set a CPU timer of 1 sec and prints on the serial common interface (SCI) something like:
+```
+Hello World! 1 
+Hello World! 2 
+Hello World! 3 
+Hello World! 4 
+Hello World! 5 
+...
+```
+
+## Setup
 Import the css folder. The result should be like the bottom image:
 
 ![project](./docs/files.jpg)
